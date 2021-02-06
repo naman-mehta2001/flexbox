@@ -1,9 +1,12 @@
+body{margin: 0px;}
 h1{
     font-family: fantasy;
     font-size: 3em;
     border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
     width: 400px;
     text-align: center;
+    box-shadow: 4px 4px 5px purple;
 }
 .container{
     display: flex;
@@ -13,4 +16,12 @@ h1{
 img{
     max-width: 500px;
     max-height: 300px;
+    margin: 10px;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
 }
